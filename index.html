@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Integra Magna - Business Solutions</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <!-- Hamburger Icon for Mobile -->
+      
+
+
+        <header>
+            <nav class="nav-container">
+                <div class="nav-right">
+                    <div class="logo">
+                        <div class="logo-icon"></div>
+                        <div class="logo-text">
+                            Integra<br/> Magna
+                        </div>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#cases">CASES</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-left">
+                    <div class="hamburger" onclick="toggleMobileMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <!-- Mobile Nav Links -->
+                    <ul class="mobile-nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                    <span class="desktop-only">SIGN UP</span>
+                    <a href="#signup" class="sign-up-btn desktop-only">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g class="login-outline"><g fill="currentColor" fill-rule="evenodd" class="Vector" clip-rule="evenodd">
+                                <path d="M21 17a5 5 0 0 1-5 5h-5a1 1 0 1 1 0-2h5a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3h-5a1 1 0 1 1 0-2h5a5 5 0 0 1 5 5z"/>
+                                <path d="M10.47 7.316a1 1 0 0 1 1.414-.046l4.8 4.5a1 1 0 0 1 0 1.46l-4.8 4.5a1 1 0 1 1-1.368-1.46l2.955-2.77H4a1 1 0 1 1 0-2h9.471l-2.955-2.77a1 1 0 0 1-.046-1.414"/>
+                            </g></g>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container">
+            <!-- Starting Section -->
+            <section class="main-section">
+                <!-- Left Text with Avatars -->
+                <div class="content-left">
+                    <h1>
+                        UNLIMITED<br>
+                        PRETENTIOUS<br>
+                        <div class="team-avatars">
+                            <div class="avatar avatar-1"></div>
+                            <div class="avatar avatar-2"></div>
+                            <div class="avatar avatar-3"></div>
+                            <span class="highlight">IDEAS</span>
+                        </div>
+                    </h1>
+                    <div class="content-left-bottom">
+                        <h2>OUR SOLUTIONS</h2>
+                        <h2>WE PROVIDE THE FULL <br/> FUNNEL APPROCH</h2>
+                    </div>
+                </div>
+
+                <!-- Right Card -->
+                <div class="content-right">
+                    <div class="demo-card">
+                        <div class="content">                        
+                            <h3>YOUR<br>BUSINESS<br>BOOST</h3>
+                            <div class="card-dots" style="top: -36px; right: 20px; left: auto;">
+                                <div class="dot" style="background-color: white; border-color: white;"></div>
+                                <div class="dot" style="border-color: white;"></div>
+                            </div>
+                            <div class="person-avatar"></div>
+                            
+                            <a href="#demo" class="book-demo-btn">
+                                <span>Book Demo Call</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24"><path fill="currentColor" d="M12.003 21q-1.866 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.709-3.51Q4.417 6.85 5.63 5.634t2.857-1.925T11.997 3t3.51.709q1.643.708 2.859 1.922t1.925 2.857t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709m1.409-8.5l-1.766 1.766q-.14.14-.13.334q.009.194.15.335q.14.14.347.14t.34-.14l2.37-2.37q.243-.242.243-.565t-.243-.565l-2.388-2.389q-.14-.14-.335-.14t-.334.14t-.141.348t.14.34l1.747 1.766H9q-.213 0-.356.144t-.144.357t.144.356T9 12.5z"/></svg>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Bottom Section -->
+            <section class="bottom-section">
+                <!-- Services Row -->
+                <div class="services-row">
+                    <div class="service-tag">WEB ANALYTICS</div>
+                    <div class="service-tag">EMAIL MARKETING</div>
+                    <div class="service-tag">SEO 2.0</div>
+                </div>
+
+                <!-- Card Group -->
+                <div class="cards-grid">
+                    <div class="folder orange-folder">
+                        <h3>UNIQUE<br>BUSINESS SOLUTIONS</h3>
+                        <div class="orange-folder-icon">W</div>
+                    </div>
+                    
+                    <div class="folder white-folder">
+                        <div class="card-dots">
+                            <div class="dot" style="background-color: black;"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <h3>OUR CASE<br>STUDIES</h3>
+                        <div class="card-arrow">↗</div>
+                    </div>
+                    
+                    <div class="folder yellow-folder">
+                        <h3>SUCCESSFUL<br>PROJECTS</h3>
+                        <div class="number">700 <div class="plus">+</div> </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
